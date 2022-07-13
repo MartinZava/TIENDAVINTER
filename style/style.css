@@ -3,14 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     position: relative;
     min-height: 100%;
 }
 
+
 /*INDEX*/
 
-/*Clases*/
 
 .texto {
     font-family: Heebo;
@@ -48,13 +49,40 @@ html {
     justify-content: flex-end;
     list-style: none;
     align-items: center;
-    
+    flex-wrap: wrap;
 }
 .logo {
     margin-left: 30%;
     margin-right: 45px;
     display: flex;
     transition: all 1s ease-in-out;
+
+}
+
+.logo:hover {
+    animation: mover 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mover {
+    0% {
+        transform: translate(0.5px, 0.5px) rotate(0deg);
+    }
+    20% {
+        transform: translate(-1px, 0px) rotate(0.5deg);
+    }
+    40% {
+        transform: translate(0.5px, -0.5px) rotate(0.5deg);
+    }
+    60% {
+        transform: translate(-1px, 0.5px) rotate(0deg);
+    }
+    80% {
+        transform: translate(-0.5px, 1px) rotate(-0.5deg);
+    }
+    100% {
+        transform: translate(0.5px, -0.5px) rotate(-0.5deg);
+    }
 }
 
 .buscador {
@@ -62,7 +90,7 @@ html {
     background-image: url(../recursos/searchicon3.png);
     background-position: 10px 7px;
     background-repeat: no-repeat;
-    border-width: 1px;
+    border-width: 0px;
     border-radius: 2px;
     border-style: hidden;
     border-color: transparent;
@@ -72,8 +100,10 @@ html {
 }
 
 .buscador:focus {
+    border: transparent;
     border-color: transparent;
     background-color: rgba(255, 235, 185, 0.452)
+    
 }
 
 .linea {
@@ -90,7 +120,12 @@ html {
     margin: auto;
     margin-bottom: 60px;
 }
-
+.linea__3 {
+    width: 40%;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
 .cuadrado {
     width: 500px;
     height: 500px;
@@ -170,6 +205,7 @@ html {
     left: 0;
     right: 0;
 }
+
 .textoFooter {
     font-family: Frank Ruhl Libre;
     font-style: normal;
@@ -178,6 +214,7 @@ html {
     text-align: right;
     display: flex;
     align-items: center;
+    
 }
 .textoFooter--mail {
     text-decoration: none;
@@ -198,8 +235,6 @@ html {
     color: #D1D1D1;
     text-align: center;
 }
-
-/*Elementos*/
 
 a {
     text-decoration: none;
@@ -246,25 +281,32 @@ button:hover {
     margin-top: 10px;
     margin-bottom: 90px;
 }
-.tienda {
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-}
 .tiendaElementos {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 40px;
+    margin-top: 50px;
+    background-image: linear-gradient(to left, white, rgba(255, 235, 185, 0));
+    transition: all 0.7s ease-in-out;
+
+}
+.tiendaElementos:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-image: linear-gradient(to left, white, rgba(255, 235, 185, 0.452));
 }
 .tiendaLineaArticulo {
     width: 320px;
     height: 1px;
+    border-width: 0;
     color: #D1D1D1;
+    background-color: #D1D1D1;
     margin: 15px 0px 5px 0px ;
 }
 
-/*ID´S*/
+
+/*id´s*/
+
 
 #iamyourflexfather {
     width: 50%;
@@ -283,13 +325,16 @@ button:hover {
     margin: auto;
     margin-bottom: 10px;
 }
-
-#imgTienda {
-    border-radius: 10px;
+.imgTienda {
+    transition: all 0.7s ease-in-out;
+}
+#imgTienda:hover {
+    border-radius: 8px;
 }
 
 
 /*BLOG*/
+
 
 .blogFlex {
     width: 40%;
@@ -304,7 +349,6 @@ button:hover {
     align-items: center;
     margin-bottom: 70px;
     transition: all 0.7s ease-in-out;
-
 }
 .blogTexto { 
     text-decoration: none;
@@ -317,12 +361,13 @@ button:hover {
 
 .divBlog:hover {
     border-radius: 10px;
-    background-color: rgba(255, 235, 185, 0.452);
+    background-image: linear-gradient(to left, white, rgba(255, 235, 185, 0.452));    /*Chequear el tiempo de anim */
     cursor: pointer;
 }
 
 
-/*Contacto*/
+/*CONTACTO*/
+
 
 .formContacto {
     width: 30%;
@@ -397,7 +442,10 @@ textarea::placeholder {
     color: #D1D1D1;
 }
 
+
 /*SOBRE NOSOTRXS*/
+
+
 
 .flexPadre {
     display: flex;
