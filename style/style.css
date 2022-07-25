@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ html {
 /*INDEX*/
 
 
-.texto {
+/* .texto {
     font-family: Heebo;
     font-style: serif;
     font-size: 1rem;
@@ -23,7 +23,7 @@ html {
     margin-left: 50px;
     margin-right: 50px;
 }
-.textoTiendavinter {
+.texto__tiendavinter {
     font-family: Heebo;
     font-size: 1.12rem;
     font-weight: bold;
@@ -119,12 +119,6 @@ html {
     margin: auto;
     margin-bottom: 60px;
 }
-.linea__3 {
-    width: 40%;
-    margin: auto;
-    margin-top: 120px;
-    margin-bottom: 20px;
-}
 .cuadrado {
     width: 500px;
     height: 500px;
@@ -133,19 +127,19 @@ html {
     align-content: space-evenly;
     justify-items: center;
 }
-.textoCuadradoTitulo {
-    font-family: Frank Ruhl Libre;
-    font-style: normal;
-    font-size: 2.2rem;
-    text-align: center;
-    padding: 40px 100px 10px 100px;
-}
-.textoCuadrado {
+.cuadrado__texto {
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-size: 1.1rem;
     width: 425px;
     padding: 0px 20px 10px 20px;
+}
+.cuadrado__texto--titulo {
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 40px 100px 10px 100px;
 }
 .boton {
     font-family: Heebo;
@@ -170,7 +164,7 @@ html {
     display: grid;
     align-content: stretch;
 }
-.textoRectanguloTitulo {
+.rectangulo__texto--titulo {
     font-family: Frank Ruhl Libre;
     font-size: 1.75rem;
     font-style: normal;
@@ -178,7 +172,7 @@ html {
     display: grid;
     align-content: center;
 }
-.textoRectangulo {
+.rectangulo__texto {
     font-family: Frank Ruhl Libre;
     font-size: 1rem;
     color: #545454;
@@ -206,7 +200,7 @@ html {
     right: 0;
 }
 
-.textoFooter {
+.footer__texto {
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-size: 0.8rem;
@@ -216,17 +210,17 @@ html {
     align-items: center;
     
 }
-.textoFooter--mail {
+.footer__texto--mail {
     text-decoration: none;
     color: #545454;
     margin-left: 1px;
 }
-.textoFooter--insta {
+.footer__texto--insta {
     text-decoration: none;
     color: #545454;
     margin-left: 1px;
 }
-.textoFooter--powered {
+.footer__texto--powered {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: unset;
     font-size: 0.8rem;
@@ -253,7 +247,9 @@ button:hover {
 }
 #boton {
     color: #545454;
-}
+}  */
+
+
 
 
 /*TIENDA*/
