@@ -521,82 +521,66 @@ textarea::placeholder {
     font-size: 0.9rem;
     font-weight: 200; }
   .linea__2 {
-    display: none; } }
-
-.rectangulo {
-  width: 60%;
-  margin: auto;
-  margin-bottom: 15%;
-  background-color: white;
-  border-width: 1px 0 1px 0;
-  border-style: solid;
-  border-color: #D1D1D1; }
-  .rectangulo__texto--titulo {
-    font-size: 1.6rem; }
-
-.footer {
-  width: 100%;
-  margin-top: 5vh;
-  padding-top: 10px;
-  position: absolute;
-  bottom: 0; }
-  .footer__texto {
-    font-size: 0.95rem;
-    margin: 0 12px 0 12px; }
-  .footer__texto--powered {
-    font-size: 0.7rem; }
-
-#footerElem {
-  width: 33%; }
-
-/* TIENDA */
-#h1 {
-  width: 80%;
-  margin-left: 13%;
-  margin-bottom: 0; }
-
-.tienda__linea--mod {
-  width: 80%;
-  margin: 5px auto 0 auto; }
-
-#iamyourflexfather {
-  width: 70%;
-  margin-bottom: 20%; }
-
-.tienda__img {
-  width: 300px;
-  height: 300px; }
-
-.tienda__linea--articulo {
-  width: 300px; }
-
-/* BLOG */
-.blog__flex {
-  width: 80%;
-  margin: 10% auto 15% auto; }
-
-.blog__texto {
-  padding: 0;
-  font-size: 1.4rem; }
-
-#imgBlog {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 6px; }
-
-/* CONTACTO */
-.contacto__form {
-  margin: 10% auto 10% 15%;
-  width: 80%; }
-
-input[type=text] {
-  width: 30vh; }
-
-input[type=email] {
-  width: 30vh; }
-
-textarea {
-  width: 37vh; }
-
-/* SOBRENOSOTRXS */
+    display: none; }
+  .rectangulo {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 15%;
+    background-color: white;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #D1D1D1; }
+    .rectangulo__texto--titulo {
+      font-size: 1.6rem; }
+  .footer {
+    width: 100%;
+    margin-top: 5vh;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0; }
+    .footer__texto {
+      font-size: 0.95rem;
+      margin: 0 12px 0 12px; }
+    .footer__texto--powered {
+      font-size: 0.7rem; }
+  #footerElem {
+    width: 33%; }
+  /* TIENDA */
+  #h1 {
+    width: 80%;
+    margin-left: 13%;
+    margin-bottom: 0; }
+  .tienda__linea--mod {
+    width: 80%;
+    margin: 5px auto 0 auto; }
+  #iamyourflexfather {
+    width: 70%;
+    margin-bottom: 20%; }
+  .tienda__img {
+    width: 300px;
+    height: 300px; }
+  .tienda__linea--articulo {
+    width: 300px; }
+  /* BLOG */
+  .blog__flex {
+    width: 80%;
+    margin: 10% auto 15% auto; }
+  .blog__texto {
+    padding: 0;
+    font-size: 1.4rem; }
+  #imgBlog {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px; }
+  /* CONTACTO */
+  .contacto__form {
+    margin: 10% auto 10% 15%;
+    width: 80%; }
+  input[type=text] {
+    width: 30vh; }
+  input[type=email] {
+    width: 30vh; }
+  textarea {
+    width: 37vh; }
+  /* SOBRENOSOTRXS */ }
