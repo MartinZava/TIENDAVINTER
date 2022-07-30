@@ -257,3 +257,460 @@ button:hover {
 #boton {
     color: $texto-secundario;
 }
+
+
+/*TIENDA*/
+
+.tienda{
+    
+    &__texto {
+        font-family: Heebo;
+        font-size: 1rem;
+        color: $texto-secundario;
+        font-weight: bold;
+        margin: 5px 0px 5px 0px;
+    }
+    &__linea {
+        height: 1px;
+        border-width: 0;
+        color: $texto-alternativo;
+        background-color: $texto-alternativo;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    &__linea--mod {
+        width: 50%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 90px;
+    }
+    &__elementos {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 50px;
+        background-image: linear-gradient(to left, white, rgba(255, 235, 185, 0));
+        transition: all 0.7s ease-in-out;
+    }
+    &__elementos:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        background-image: linear-gradient(to left, white, rgba(255, 235, 185, 0.452));
+    }
+    &__linea--articulo {
+        width: 320px;
+        height: 1px;
+        border-width: 0;
+        color: $texto-alternativo;
+        background-color: $texto-alternativo;
+        margin: 15px 0px 5px 0px ;
+    }
+}
+#iamyourflexfather {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+#h1 {
+    font-family: Heebo;
+    font-size: 1.75rem;
+    color: $texto-primario;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.tienda__img {
+    transition: all 0.7s ease-in-out;
+}
+#tienda__img:hover {
+    border-radius: 8px;
+}
+
+/*BLOG*/
+
+.blog{
+    &__flex {
+        width: 40%;
+        margin: auto;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    &__elementos {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 70px;
+        transition: all 0.7s ease-in-out;
+    }
+    &__texto { 
+        text-decoration: none;
+        font-family: Frank Ruhl Libre;
+        font-size: 1.6rem;
+        color: $texto-secundario;
+        font-weight: 500;
+        padding-left: 50px;
+    }
+    &__hover:hover {
+        border-radius: 10px;
+        background-image: linear-gradient(to left, white, rgba(255, 235, 185, 0.452));    /*Chequear el tiempo de anim */
+        cursor: pointer;
+    }
+}
+
+/*CONTACTO*/
+
+.contacto{
+    &__form {
+        width: 40vh;
+        margin: 0 auto;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+    }
+    &__texto {
+        font-family: Frank Ruhl Libre;
+        font-size: 1rem;
+        color: $texto-secundario;
+    }
+}
+.contacto__form {
+    width: 40vh;
+    margin: 0 auto;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.contacto__texto {
+    font-family: Frank Ruhl Libre;
+    font-size: 1rem;
+    color: $texto-secundario;
+}
+
+.contacto__texto--mod {
+    padding-bottom: 5px;
+}
+
+input[type=text] {
+    width: 40vh;
+    padding: 5px;
+    border-width: 1px;
+    border-color: $texto-alternativo;
+    border-style: ridge;
+    transition: all 0.5s ease-in-out;
+    &[type=text]:focus {
+        background-color: rgba(255, 235, 185, 0.452);
+    }
+}
+
+input[type=email]{
+    width: 40vh;
+    padding: 5px;
+    border-width: 1px;
+    border-color: $texto-alternativo;
+    border-style: ridge;
+    transition: all 0.5s ease-in-out;
+    &[type=email]:focus {
+        border-color: transparent;
+        background-color: $fondo-secundario;
+    }
+}
+
+textarea {
+    width: 60vh;
+    height: 200px;
+    resize: none;
+    padding: 5px;
+    border-width: 1px;
+    border-color: $texto-alternativo;
+    border-style: ridge;
+}
+
+input[type=submit] {
+    font-family: Heebo;
+    font-size: 1rem;
+    padding: 5px 10px 5px 10px;
+    border-style: ridge;
+    border-width: 1px;
+    transition: all 0.5s ease-in-out;
+    &[type=submit]:hover {
+        background-color: $fondo-secundario;
+        border-color: $fondo-secundario;
+    }
+}
+input::placeholder {
+    color: $texto-alternativo;
+}
+textarea::placeholder {
+    color: $texto-alternativo;
+}
+
+/*SOBRE NOSOTRXS*/
+
+.sobrenos{
+    &__flex {
+        display: flex;
+        flex-direction: row;
+    }
+    &__rectangulo {
+        width: 100%;
+        height: 500px;
+        background-color: $fondo-primario;
+    }
+    &__rectangulo--texto {
+        font-family: Heebo;
+        font-size: 1.87rem;
+        color: #252525;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__rectangulo--textoancho {
+        width: 615px;
+        margin: auto;
+        display: flex;
+    }
+    &__rectangulo--lineasup {
+        height: 1px;
+        border-width: 0;
+        color: $texto-alternativo;
+        background-color: $texto-alternativo;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 13px;
+    }
+    &__rectangulo--lineainf {
+        height: 1px;
+        border-width: 0;
+        color: $texto-alternativo;
+        background-color: $texto-alternativo;
+        width: 100%;
+        margin-top: 13px;
+        margin-bottom: 50px;
+    }
+    &__flextextos {
+        display: flex;
+    }
+    &__flextextos--img {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0px 5% 38%;
+    }
+}
+.creditos {
+    font-family: Frank Ruhl Libre;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 70px 0px 35%;
+    &__nombres {
+        color: $texto-secundario;
+    }
+    &__actividad {
+        font-weight: bold;
+    }
+}
+.parrafos {
+    font-family: Frank Ruhl Libre;
+    font-size: 1.4rem;
+    color: $texto-secundario;
+    width: 600px;
+    text-align: justify;
+    letter-spacing: 0.7px;
+    &__mod {
+        margin: 50px 0px 50px 140px;
+    }
+}
+.imgMargin {
+    margin: 50px 0px 50px 0px;
+}
+
+@media (max-width:576px) {
+    .navegacion{
+        margin: 0;
+        padding: 0;
+    }
+    .logo{
+        margin-left: 33%;
+        padding: 0;
+    }
+    .texto{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        font-size: 0.9rem;
+        &__tiendavinter{
+            margin-left: 43%;
+        }
+    }
+    .lista{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-areas: 
+        " vinterGrid vinterGrid vinterGrid vinterGrid"
+        " tienda2 blog contacto sobrenosotrxs"
+        ;
+        grid-template-rows: 7fr 2fr;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+    }
+    .vinterGrid{
+        grid-area: vinterGrid;
+    }
+    .tienda2{
+        grid-area: tienda2;
+        padding-left: 30%;
+    }
+    .blog{
+        grid-area: blog;
+        padding-right: 50%;
+    }
+    .contacto{
+        grid-area: contacto;
+        padding-right: 50%;
+    }
+    .sobrenosotrxs{
+        grid-area: sobrenosotrxs;
+        padding-right: 45%;
+    }
+    .buscador{
+        display: none;
+    }
+    .linea{
+        margin: 10px 0 10% 0;
+    }
+    .imgPortada{
+        height: 300px;
+    }
+    .portada{
+        margin-bottom: 10%;
+    }
+    .cuadrado{
+        height: 300px;
+        align-content: center;
+        row-gap: 20px;
+        &__texto--titulo{
+            padding: 0;
+            font-size: 1.8rem;
+            font-weight: lighter;
+        }
+        &__texto{
+            width: 75%;
+            padding: 0;
+            text-align: center;
+        }
+    }
+    .boton{
+        font-size: 0.9rem;
+        font-weight: 200;
+    }
+    .linea__2{
+        display: none;
+    }
+}    
+    .rectangulo{
+        width: 60%;
+        margin: auto;
+        margin-bottom: 15%;
+        background-color: white;
+        border-width: 1px 0 1px 0;
+        border-style: solid;
+        border-color: $texto-alternativo;
+        &__texto--titulo{
+            font-size: 1.6rem;
+        }
+    }
+    .footer{
+        width: 100%;
+        margin-top: 5vh;
+        padding-top: 10px;
+        position: absolute;
+        bottom: 0;
+        &__texto{
+            font-size: 0.95rem;
+            margin: 0 12px 0 12px;
+        }
+        &__texto--powered{
+            font-size: 0.7rem;
+        }
+    }
+    #footerElem{
+        width: 33%;
+    }
+
+        /* TIENDA */
+
+    #h1{
+        width: 80%;
+        margin-left: 13%;
+        margin-bottom: 0;
+    }
+    .tienda__linea--mod{
+        width: 80%;
+        margin: 5px auto 0 auto;
+    }
+    #iamyourflexfather{
+        width: 70%;
+        margin-bottom: 20%;
+    }
+
+    .tienda{
+        &__img{
+            width: 300px;
+            height: 300px;
+        }
+        &__linea--articulo{
+            width: 300px;
+        }
+    }
+
+        /* BLOG */
+
+    .blog{
+        &__flex{
+            width: 80%;
+            margin: 10% auto 15% auto;
+        }
+        &__texto{
+            padding: 0;
+            font-size: 1.4rem;
+        }
+    }
+    #imgBlog{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+
+        /* CONTACTO */
+
+    .contacto__form{
+        margin: 10% auto 10% 15%;
+        width: 80%;
+    }
+    
+    input[type=text]{
+        width: 30vh;
+    }
+    input[type=email]{
+        width: 30vh;
+    }
+    textarea{
+        width: 37vh;
+    }
+    
+
+        /* SOBRENOSOTRXS */
+
+
