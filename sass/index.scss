@@ -63,11 +63,12 @@ html {
     margin-left: 30%;
     margin-right: 45px;
     transition: all 1s ease-in-out;
-}
-
-.logo:hover {
-    animation: mover 1.5s;
-    animation-iteration-count: infinite;
+    width: auto;
+    height: auto;
+    &:hover {
+        animation: mover 1.5s;
+        animation-iteration-count: infinite;
+    }
 }
 
 @keyframes mover {
@@ -171,6 +172,7 @@ html {
     text-align: center;
     display: grid;
     align-content: stretch;
+    margin-bottom: 5%;
 
     &__texto--titulo {
         font-family: 'Source Serif 4', serif;
@@ -199,7 +201,7 @@ html {
     border-top-style: solid;
     border-width: 1px;
     border-color: $texto-alternativo;
-    padding-top: 20px;
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -219,23 +221,17 @@ html {
         
     }
     &__texto--mail {
-        text-decoration: none;
-        color: $texto-secundario;
-        margin-left: 1px;
+        margin-left: 2px;
     }
     &__texto--insta {
-        text-decoration: none;
-        color: $texto-secundario;
-        margin-left: 1px;
+        margin: 0 100px 0 3px;
     }
     &__texto--powered {
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         font-style: unset;
         font-size: 0.8rem;
-        margin-top: 5px;
-        padding-top: 30px;
+        padding-top: 35px;
         color: $texto-alternativo;
-        text-align: center;
     }
 }
 
@@ -647,13 +643,19 @@ textarea::placeholder {
             font-size: 1rem;
             margin: 0 12px 0 12px;
         }
+        &__texto--mail{
+            margin-left: 15px;
+        }
+        &__texto--insta{
+            margin-left: 5px;
+        }
         &__texto--powered{
             display: none;
         }
     }
     #footerElem{
         width: 50%;
-    }
+        }
 
         /* TIENDA */
 
