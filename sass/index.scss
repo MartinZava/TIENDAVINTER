@@ -327,6 +327,7 @@ button:hover {
 }
 .tienda__img {
     transition: all 0.7s ease-in-out;
+    object-fit: cover;
 }
 #tienda__img:hover {
     border-radius: 8px;

@@ -277,7 +277,8 @@ button:hover {
   margin-bottom: 10px; }
 
 .tienda__img {
-  transition: all 0.7s ease-in-out; }
+  transition: all 0.7s ease-in-out;
+  object-fit: cover; }
 
 #tienda__img:hover {
   border-radius: 8px; }
