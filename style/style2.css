@@ -515,8 +515,7 @@ textarea::placeholder {
     row-gap: 20px; }
     .cuadrado__texto--titulo {
       padding: 0;
-      font-size: 1.8rem;
-      font-weight: lighter; }
+      font-size: 1.8rem; }
     .cuadrado__texto {
       width: 75%;
       padding: 0;
@@ -614,7 +613,7 @@ textarea::placeholder {
     width: 80%;
     margin: 0 auto 10% auto; }
   .sobrenos__rectangulo--textoancho {
-    width: auto;
+    width: 90%;
     text-align: center; }
   .sobrenos__rectangulo--texto {
     font-size: 1.3rem; }
@@ -648,3 +647,13 @@ textarea::placeholder {
     width: 80%; }
   textarea {
     width: 36vh; } }
+
+@media (max-width: 412px) {
+  .lista {
+    grid-template-rows: 4fr 2fr; }
+  .logo {
+    margin-left: 27%; }
+  .texto__tiendavinter {
+    margin: 0 30% 0 38%; }
+  .rectangulo {
+    margin-bottom: 25%; } }

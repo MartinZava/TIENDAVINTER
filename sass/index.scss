@@ -1,4 +1,5 @@
 @import "./variables.scss";
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
@@ -605,7 +606,6 @@ textarea::placeholder {
         &__texto--titulo{
             padding: 0;
             font-size: 1.8rem;
-            font-weight: lighter;
         }
         &__texto{
             width: 75%;
@@ -747,7 +747,7 @@ textarea::placeholder {
             margin: 0 auto 10% auto;
         }
         &__rectangulo--textoancho {
-            width: auto;
+            width: 90%;
             text-align: center;
         }
         &__rectangulo--texto {
@@ -798,5 +798,19 @@ textarea::placeholder {
     textarea{
         width: 36vh;
     }
+}
+@media (max-width:412px){
+    .lista{
+        grid-template-rows: 4fr 2fr;
+    }
+    .logo{
+        margin-left: 27%;
+    }
+    .texto__tiendavinter{
+        margin: 0 30% 0 38%;
+        }
+        .rectangulo{
+            margin-bottom: 25%;
+        }
 }
 
