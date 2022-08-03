@@ -545,12 +545,12 @@ textarea::placeholder {
     position: absolute;
     bottom: 0; }
     .footer__texto {
-      font-size: 0.95rem;
+      font-size: 1rem;
       margin: 0 12px 0 12px; }
     .footer__texto--powered {
       display: none; }
   #footerElem {
-    width: 33%; }
+    width: 50%; }
   /* TIENDA */
   #h1 {
     width: 80%;

@@ -643,7 +643,7 @@ textarea::placeholder {
         position: absolute;
         bottom: 0;
         &__texto{
-            font-size: 0.95rem;
+            font-size: 1rem;
             margin: 0 12px 0 12px;
         }
         &__texto--powered{
@@ -651,7 +651,7 @@ textarea::placeholder {
         }
     }
     #footerElem{
-        width: 33%;
+        width: 50%;
     }
 
         /* TIENDA */
