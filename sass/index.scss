@@ -1,5 +1,7 @@
 @import "./variables.scss";
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -140,9 +142,9 @@ html {
         padding: 0px 20px 10px 20px;
     }
     &__texto--titulo {
-        font-family: Frank Ruhl Libre;
-        font-style: normal;
-        font-size: 2.2rem;
+        font-family: 'Source Serif 4', serif;
+        font-weight: 800;
+        font-size: 2.4rem;
         text-align: center;
         padding: 40px 100px 10px 100px;
     }
@@ -158,7 +160,6 @@ html {
     border-color: #c5c5c5;
     background-color: transparent;
     padding: 1px 2px 1px 2px;
-    display: flex;
     transition: all 0.7s ease-in-out;
     cursor: pointer;
 }
@@ -171,7 +172,7 @@ html {
     align-content: stretch;
 
     &__texto--titulo {
-        font-family: Frank Ruhl Libre;
+        font-family: 'Source Serif 4', serif;
         font-size: 1.75rem;
         font-style: normal;
         color: #252525;
@@ -247,7 +248,7 @@ a {
 }
 
 button:hover {
-    font-size: 0.75;
+    font-size: 0.75rem;
     background-color: $fondo-secundario;
 }
 #logo:hover {
