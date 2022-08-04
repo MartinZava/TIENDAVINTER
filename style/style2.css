@@ -649,16 +649,16 @@ textarea::placeholder {
   .cuadrado {
     width: 100%; }
   .contacto__form {
-    margin: 10% auto 15% 13%;
+    margin: 10% auto 25% 13%;
     width: 80%; }
   textarea {
-    width: 36vh; } }
+    width: 32vh; } }
 
 @media (max-width: 412px) {
   .lista {
     grid-template-rows: 3fr 2fr; }
   .logo {
-    margin-left: 27%; }
+    margin-left: 25%; }
   .texto__tiendavinter {
     margin: 0 0 0 38%; }
   .rectangulo {
