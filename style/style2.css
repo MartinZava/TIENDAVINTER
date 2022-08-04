@@ -518,7 +518,7 @@ textarea::placeholder {
       padding: 0;
       text-align: center; }
   .boton {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 200; }
   .linea__2 {
     display: none; }
@@ -554,6 +554,7 @@ textarea::placeholder {
   /* TIENDA */
   #h1 {
     width: 80%;
+    font-size: 1.6rem;
     margin-left: 13%;
     margin-bottom: 0; }
   .tienda__linea--mod {
@@ -563,17 +564,19 @@ textarea::placeholder {
     width: 70%;
     margin-bottom: 20%; }
   .tienda__img {
-    width: 300px;
-    height: 300px; }
+    width: 240px;
+    height: 240px; }
   .tienda__linea--articulo {
-    width: 300px; }
+    width: 240px; }
   /* BLOG */
   .blog__flex {
     width: 80%;
     margin: 10% auto 15% auto; }
   .blog__texto {
     padding: 0;
-    font-size: 1.4rem; }
+    font-size: 1.2rem; }
+  .blog__elementos {
+    margin-bottom: 50px; }
   #imgBlog {
     width: 100%;
     height: 150px;
@@ -589,6 +592,8 @@ textarea::placeholder {
     width: 30vh; }
   textarea {
     width: 45vh; }
+  input[type=submit] {
+    background-color: rgba(255, 235, 185, 0.452); }
   /* SOBRENOSOTRXS */
   .sobrenos__flex {
     flex-direction: column;
@@ -662,4 +667,8 @@ textarea::placeholder {
   .logo {
     margin-left: 25%; }
   .texto__tiendavinter {
-    margin: 0 0 0 37%; } }
+    margin: 0 0 0 37%; }
+  textarea {
+    width: 32vh; }
+  .cuadrado__texto--titulo {
+    font-size: 1.7rem; } }

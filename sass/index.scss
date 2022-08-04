@@ -611,7 +611,7 @@ textarea::placeholder {
         }
     }
     .boton{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         font-weight: 200;
     }
     .linea__2{
@@ -660,6 +660,7 @@ textarea::placeholder {
 
     #h1{
         width: 80%;
+        font-size: 1.6rem;
         margin-left: 13%;
         margin-bottom: 0;
     }
@@ -674,11 +675,11 @@ textarea::placeholder {
 
     .tienda{
         &__img{
-            width: 300px;
-            height: 300px;
+            width: 240px;
+            height: 240px;
         }
         &__linea--articulo{
-            width: 300px;
+            width: 240px;
         }
     }
 
@@ -691,7 +692,10 @@ textarea::placeholder {
         }
         &__texto{
             padding: 0;
-            font-size: 1.4rem;
+            font-size: 1.2rem;
+        }
+        &__elementos{
+            margin-bottom: 50px;
         }
     }
     #imgBlog{
@@ -715,6 +719,9 @@ textarea::placeholder {
     }
     textarea{
         width: 45vh;
+    }
+    input[type=submit]{
+        background-color: $fondo-secundario;
     }
     
         /* SOBRENOSOTRXS */
@@ -821,6 +828,12 @@ textarea::placeholder {
     }
     .texto__tiendavinter{
         margin: 0 0 0 37%;
-        }
+    }
+    textarea{
+        width: 32vh;
+    }
+    .cuadrado__texto--titulo{
+        font-size: 1.7rem;
+    }
 }
 
