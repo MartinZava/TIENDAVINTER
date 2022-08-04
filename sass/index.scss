@@ -640,8 +640,10 @@ textarea::placeholder {
         position: absolute;
         bottom: 0;
         &__texto{
-            font-size: 1rem;
-            margin: 0 12px 0 12px;
+            font-size: 0.9rem;
+        }
+        &__texto--mod{
+            width: 90%;
         }
         &__texto--mail{
             margin-left: 15px;
@@ -653,9 +655,6 @@ textarea::placeholder {
             display: none;
         }
     }
-    #footerElem{
-        width: 50%;
-        }
 
         /* TIENDA */
 
@@ -804,16 +803,24 @@ textarea::placeholder {
 }
 @media (max-width:400px){
     .lista{
-        grid-template-rows: 4fr 2fr;
+        grid-template-rows: 3fr 2fr;
     }
     .logo{
         margin-left: 27%;
     }
     .texto__tiendavinter{
-        margin: 0 30% 0 38%;
+        margin: 0 0 0 38%;
         }
-        .rectangulo{
-            margin-bottom: 25%;
+    .rectangulo{
+        margin-bottom: 25%;
+    }
+}
+@media (max-width:360px){
+    .logo{
+        margin-left: 25%;
+    }
+    .texto__tiendavinter{
+        margin: 0 0 0 37%;
         }
 }
 
