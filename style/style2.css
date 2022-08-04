@@ -526,7 +526,7 @@ textarea::placeholder {
     width: 60%;
     height: auto;
     margin: auto;
-    margin-bottom: 15%;
+    margin-bottom: 25%;
     background-color: white;
     border-width: 1px 0 1px 0;
     border-style: solid;
@@ -547,7 +547,7 @@ textarea::placeholder {
     .footer__texto--mail {
       margin-left: 15px; }
     .footer__texto--insta {
-      margin-left: 5px; }
+      margin: 0 0 0 5px; }
     .footer__texto--powered {
       display: none; }
   #footerElem {
@@ -649,7 +649,7 @@ textarea::placeholder {
   textarea {
     width: 36vh; } }
 
-@media (max-width: 412px) {
+@media (max-width: 400px) {
   .lista {
     grid-template-rows: 4fr 2fr; }
   .logo {
