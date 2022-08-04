@@ -653,7 +653,7 @@ textarea::placeholder {
   textarea {
     width: 36vh; } }
 
-@media (max-width: 400px) {
+@media (max-width: 412px) {
   .lista {
     grid-template-rows: 3fr 2fr; }
   .logo {
