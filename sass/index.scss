@@ -569,19 +569,19 @@ textarea::placeholder {
     }
     .tienda2{
         grid-area: tienda2;
-        padding-left: 30%;
+        margin-left: 30%;
     }
     .blog{
         grid-area: blog;
-        padding-right: 50%;
+        margin-right: 50%;
     }
     .contacto{
         grid-area: contacto;
-        padding-right: 50%;
+        margin-right: 50%;
     }
     .sobrenosotrxs{
         grid-area: sobrenosotrxs;
-        padding-right: 45%;
+        margin-right: 40%;
     }
     .buscador{
         display: none;
@@ -789,7 +789,7 @@ textarea::placeholder {
         margin-left: 40%;
     }
     .sobrenosotrxs{
-        padding-right: 35%;
+        margin-right: 29%;
     }
     .vinterGrid{
         margin-top: 5%;
@@ -814,7 +814,7 @@ textarea::placeholder {
         grid-template-rows: 3fr 2fr;
     }
     .logo{
-        margin-left: 25%;
+        margin-left: 27%;
     }
     .texto__tiendavinter{
         margin: 0 0 0 38%;

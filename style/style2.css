@@ -487,16 +487,16 @@ textarea::placeholder {
     grid-area: vinterGrid; }
   .tienda2 {
     grid-area: tienda2;
-    padding-left: 30%; }
+    margin-left: 30%; }
   .blog {
     grid-area: blog;
-    padding-right: 50%; }
+    margin-right: 50%; }
   .contacto {
     grid-area: contacto;
-    padding-right: 50%; }
+    margin-right: 50%; }
   .sobrenosotrxs {
     grid-area: sobrenosotrxs;
-    padding-right: 45%; }
+    margin-right: 40%; }
   .buscador {
     display: none; }
   .linea {
@@ -640,7 +640,7 @@ textarea::placeholder {
   .texto__tiendavinter {
     margin-left: 40%; }
   .sobrenosotrxs {
-    padding-right: 35%; }
+    margin-right: 29%; }
   .vinterGrid {
     margin-top: 5%; }
   .imgPortada {
@@ -658,7 +658,7 @@ textarea::placeholder {
   .lista {
     grid-template-rows: 3fr 2fr; }
   .logo {
-    margin-left: 25%; }
+    margin-left: 27%; }
   .texto__tiendavinter {
     margin: 0 0 0 38%; }
   .rectangulo {
