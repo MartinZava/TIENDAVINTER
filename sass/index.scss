@@ -540,7 +540,7 @@ textarea::placeholder {
         padding: 0;
     }
     .logo{
-        margin-left: 33%;
+        margin-left: 31%;
         padding: 0;
     }
     .texto{
@@ -549,7 +549,7 @@ textarea::placeholder {
         justify-content: center;
         font-size: 0.9rem;
         &__tiendavinter{
-            margin-left: 43%;
+            margin-left: 41%;
             margin-right: 0px;
         }
     }
@@ -581,7 +581,7 @@ textarea::placeholder {
     }
     .sobrenosotrxs{
         grid-area: sobrenosotrxs;
-        margin-right: 40%;
+        margin-right: 38%;
     }
     .buscador{
         display: none;
@@ -782,17 +782,14 @@ textarea::placeholder {
 @media (max-width:480px){
 
     .logo{
-        margin-left: 30%;
+        margin-left: 29%;
         padding: 0;
     }
     .texto__tiendavinter{
-        margin-left: 40%;
+        margin-left: 39%;
     }
     .sobrenosotrxs{
-        margin-right: 29%;
-    }
-    .vinterGrid{
-        margin-top: 5%;
+        margin-right: 18%;
     }
     .imgPortada{
         max-width: 100%;
@@ -811,7 +808,7 @@ textarea::placeholder {
 }
 @media (max-width:412px){
     .lista{
-        grid-template-rows: 3fr 2fr;
+        grid-template-rows: 6fr 2fr;
     }
     .logo{
         margin-left: 27%;
