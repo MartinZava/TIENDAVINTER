@@ -466,7 +466,7 @@ textarea::placeholder {
     margin: 0;
     padding: 0; }
   .logo {
-    margin-left: 31%;
+    margin-left: 30%;
     padding: 0; }
   .texto {
     margin: 0;
@@ -474,7 +474,7 @@ textarea::placeholder {
     justify-content: center;
     font-size: 0.9rem; }
     .texto__tiendavinter {
-      margin-left: 41%;
+      margin-left: 40%;
       margin-right: 0px; }
   .lista {
     width: 100%;
@@ -482,18 +482,18 @@ textarea::placeholder {
     display: grid;
     grid-template-areas: " vinterGrid vinterGrid vinterGrid vinterGrid" " tienda2 blog contacto sobrenosotrxs";
     grid-template-rows: 7fr 2fr;
-    grid-template-columns: 2fr 1fr 1fr 2fr; }
+    grid-template-columns: 3fr 1fr 1fr 4fr; }
   .vinterGrid {
     grid-area: vinterGrid; }
   .tienda2 {
     grid-area: tienda2;
-    margin-left: 30%; }
+    margin-left: 40%; }
   .blog {
     grid-area: blog;
-    margin-right: 50%; }
+    margin-right: 60%; }
   .contacto {
     grid-area: contacto;
-    margin-right: 50%; }
+    margin-right: 30%; }
   .sobrenosotrxs {
     grid-area: sobrenosotrxs;
     margin-right: 38%; }
@@ -635,12 +635,16 @@ textarea::placeholder {
 
 @media (max-width: 480px) {
   .logo {
-    margin-left: 29%;
+    margin-left: 28%;
     padding: 0; }
   .texto__tiendavinter {
     margin-left: 39%; }
+  .blog {
+    margin-right: 50%; }
+  .contacto {
+    margin-right: 7%; }
   .sobrenosotrxs {
-    margin-right: 18%; }
+    margin-right: 31%; }
   .imgPortada {
     max-width: 100%;
     height: 300px; }
@@ -658,7 +662,7 @@ textarea::placeholder {
   .logo {
     margin-left: 27%; }
   .texto__tiendavinter {
-    margin: 0 0 0 38%; }
+    margin-left: 38%; }
   .rectangulo {
     margin-bottom: 25%; } }
 
@@ -668,6 +672,8 @@ textarea::placeholder {
     margin-right: 0px; }
   .texto__tiendavinter {
     margin: 0 0 0 37%; }
+  .contacto {
+    margin-right: 17%; }
   textarea {
     width: 32vh; }
   .cuadrado__texto--titulo {
