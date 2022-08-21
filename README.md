@@ -8,7 +8,7 @@ El emprendimiento es real, sus dueños son dos amigxs, Gonzalo y Sasha.
 
 * **HTML**
 * **CSS**
-* **SCSS**
+* **SCSS/SASS**
 * **NODE.JS**
 * **GIT/GITHUB**
 * **SEO**
